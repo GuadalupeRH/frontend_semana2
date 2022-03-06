@@ -1,0 +1,215 @@
+.body1 {
+    background-image: url(../img/back1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.confirmacion{
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  padding: 20px;
+}
+  
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #90467C;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #90467C;
+  }
+
+  h3,p{
+    color: #90467C;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p, h3 {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #f2e1f3;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+
+  .inventario {
+    width: 80%;
+    background-color: #f2e1f3;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: #6e1a58;
+    border-color: #6e1a58;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+  table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  td, th {
+    border: 1px solid #430b68;
+    padding: 2px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+
+  ul {
+    list-style: square inside;
+  }
+  .lista{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+  .lista2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+  form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 300px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  .ul2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  .label2 {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 180px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid rgb(153, 153, 153);
+  }
+  
+  input:focus,textarea:focus {
+  
+    border-color: rgb(0, 0, 0);
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+   
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+
+  .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textoConfirmacion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

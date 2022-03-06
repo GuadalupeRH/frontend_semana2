@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Orden</title>
+</head>
+<body class="body1">
+    <div class="menu">
+      <img src="img/logo1.png" alt="logo" width="250" height="200">
+        <header>
+          <p class="established">Est. 1989</p>
+        </header>
+        <hr>
+        <main>
+          <section>
+            <h2>Realiza tu orden</h2>
+             <!-- <img src="img/pastel.png" alt="pastel icon" width="70" height="70"/> -->
+             <form like action="ordenEnviada.html" method="post">
+                <ul class="ul2">
+                 <li>
+                   <label for="nombre_cliente">Nombre:</label>
+                   <input type="text" id="nombre_cliente" name="user_name" required/>
+                 </li>
+                 <li>
+                   <label for="tel1">Teléfono</label>
+                   <input type="tel" id="tel1" name="tel1" maxlength="10" required>
+                </li>
+                <li>
+                   <label for="coreo">Correo electrónico:</label>
+                   <input type="email" id="correo" name="correo" required/>
+                </li>
+                <li>
+                  <label for="sabor_pastel">Sabor de pastel: </label>
+                  <select id="sabor_pastel" name="sabor_pastel">
+                    <option value="vainilla_tradiconal">Vainilla Tradicional</option>
+                    <option value="tres_leches">Tres Leches</option>
+                    <option value="chocolate">Chocolate</option>
+                  </select>
+                </li>
+                <li>
+                    <h3>Relleno</h3>
+                    <input type="checkbox" id="topping1" name="topping1" value="Fresas">
+                    <label for="topping1" class="label2">Fresas</label><br>
+                    <input type="checkbox" id="topping2" name="topping2" value="durazno">
+                    <label for="topping2" class="label2">Durazno</label><br>
+                    <input type="checkbox" id="topping3" name="topping3" value="coco_piña">
+                    <label for="topping3" class="label2">Coco & piña</label><br>
+                    <input type="checkbox" id="topping4" name="topping4" value="mermelada_fresa">
+                    <label for="topping4" class="label2">Mermelada fresa</label><br>
+                    <input type="checkbox" id="topping5" name="topping5" value="mermelada_zarzamora">
+                    <label for="topping5" class="label2">Mermelada zarzamora</label><br>
+                    <input type="checkbox" id="topping6" name="topping6" value="crema">
+                    <label for="topping6" class="label2">Crema</label><br>
+                  </li>
+                  <li>
+                    <h3>Cubierta</h3><br>
+                    <input type="radio" id="chantilly" name="cubierta" value="chantilly">
+                    <label for="chantilly" class="label2">Chantilly</label><br>
+                    <input type="radio" id="merengue" name="cubierta" value="merengue">
+                    <label for="merengue" class="label2">Merengue</label><br>
+                    <input type="radio" id="fondant" name="cubierta" value="fondant">
+                    <label for="fondant" class="label2">Fondant</label><br>
+                    <input type="radio" id="buttercream" name="cubierta" value="buttercream">
+                    <label for="buttercream" class="label2">Buttercream</label><br>
+                  </li>
+                  <li>
+                      Fecha de entrega: <input type="date" id="fecha1" name="fecha1" required>
+                  <li>
+                    <label for="msg">Descripcion general:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Envíe su pedido</button>
+                  </li>
+              </form>
+          </section>
+        </main>
+        <hr class="bottom-line">
+        <footer>
+          <p class="address">Horario de atención:<br>Lunes a viernes <br> 9am - 5pm  <br>  Direccion: Boulevard Independiente #1221 <br> Telefono: 52 123 43556</p>
+        </footer>
+
+    </div>    
+</body>
+</html>
